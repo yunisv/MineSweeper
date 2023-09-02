@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>sapper</title>
+    <link href="./css/style.css" rel="stylesheet">
+    <script defer src="./js/sapper.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div id="roleBoard">
+
+        </div>
+        <div class="container_board">
+            <div id="Board">
+
+            </div>
+        </div>
+        <div class="info">
+            <h1 class="name">MineSwipper</h1>
+            <div class="flagNumBox">Flags remains:<div class="flagNum"></div></div>
+            <div class="settings">
+                <div class="sizeBox">
+                    <h3>Size</h3>
+                    <div class="boxString">&nbsp;<div class="sizeNum"></div></div>
+                    <div class="sizeButtons">
+                        <button id="size10">10x10</button>
+                        <button id="size20">20x20</button>
+                        <button id="size50">40x40</button>
+                    </div>
+                </div>
+                <div class="minesBox">
+                    <h3>Mines</h3>
+                    <div class="boxString">&nbsp;<div class="minesNum"></div></div>
+                    <div class="minesButtons">
+                        <button id="mines20">20</button>
+                        <button id="mines50">50</button>
+                        <button id="mines100">100</button>
+                        <button id="mines150">150</button>
+                        <button id="mines200">200</button>
+                    </div>
+                    <div class="startButton">
+                        <button id="start">START</button>
+                    </div>
+                </div>
+                <div class="timer">
+                    <h4>&nbsp;<time></time></h4>
+                </div>
+                <div class="resualt">
+                    <p class="resualtGame">...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
